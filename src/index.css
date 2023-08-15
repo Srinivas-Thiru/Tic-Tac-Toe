@@ -1,0 +1,94 @@
+* {
+    font-family: cursive;
+}
+
+.reset {
+    animation: open 1s;
+}
+
+
+@keyframes open {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.app{
+    background-image: linear-gradient(to left, #91cde9, #f2f2f2);
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameboard {
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.square {
+    box-shadow: #f2f2f2 5px 5px 20px;
+    font-size: 70px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    position: relative;
+    bottom: 5px;
+    scale: 1.05;
+}
+
+p{
+    font-size: 35px;
+    background-color: none;
+}
+
+.won {
+    color:green;
+    animation: won  1s;
+}
+
+button {
+    border-radius: 10px;
+    padding: 0 1rem;
+    background-color: #f2f2f2;
+}
+
+button:hover {
+    scale: 1.1;
+    box-shadow: #f2f2f2 3px 3px 10px;
+}
+
+
+@keyframes won {
+    0% {
+        scale: 0.1;
+    }
+    75% {
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+    
+}
