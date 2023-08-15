@@ -1,32 +1,43 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe React App
 
-Tic-Tac-Toe React App
-This is a simple implementation of the classic Tic-Tac-Toe game using React. It allows two players to take turns and compete to win the game by forming a sequence of three of their respective symbols in a row, column, or diagonal.
+This is a simple Tic-Tac-Toe game implemented using React. The game allows two players to take turns and compete against each other. The player who succeeds in placing three of their marks (either 'X' or 'O') in a horizontal, vertical, or diagonal row wins the game.
 
-Installation
-Clone the repository to your local machine using the following command:
+## Features
 
-git clone https://github.com/Srinivas-Thiru/Tic-Tac-Toe.git
+- Dynamic game board built with React components.
+- Real-time turn tracking and win detection.
+- Reset button to start a new game.
 
-Navigate to the project directory:
+## Installation and Usage
 
-cd Tic-Tac-Toe
+1. Clone the repository to your local machine using:
 
-Install the necessary dependencies using npm:
+   ```bash
+   git clone https://github.com/Srinivas-Thiru/Tic-Tac-Toe.git
+   ```
 
-npm install
+2. Navigate to the project directory:
 
-Usage
+   ```bash
+   cd Tic-Tac-Toe
+   ```
 
-To start the game, run the following command in the project directory:
+3. Install the required dependencies:
 
-npm start
+   ```bash
+   npm install
+   ```
 
-This will launch the game in your default web browser.
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your web browser and navigate to `http://localhost:3000` to play the game.
 
 
-UI:
-
+## UI:
 
 https://github.com/Srinivas-Thiru/Tic-Tac-Toe/assets/110653801/b206aabe-9fa6-4543-a19e-48e45fc271a5
 
