@@ -39,5 +39,9 @@ This is a simple Tic-Tac-Toe game implemented using React. The game allows two p
 
 ## UI:
 
-https://github.com/Srinivas-Thiru/Tic-Tac-Toe/assets/110653801/b206aabe-9fa6-4543-a19e-48e45fc271a5
+
+https://github.com/Srinivas-Thiru/Tic-Tac-Toe/assets/110653801/abf46879-ea53-4dd8-a135-f37f7b963b85
+
+
+
 
