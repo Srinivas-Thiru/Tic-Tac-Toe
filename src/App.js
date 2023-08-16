@@ -24,23 +24,39 @@ const App = () => {
       [0,4,8],
       [2,4,6]
     ]
+
     winningCombo.forEach(combo => {
       let OWins = combo.every(cell => cells[cell]==="O")
       if(OWins) {
         setWon("O Won!!!")
         document.querySelector("p").classList.add("won")
-        return
+        for (let i = 0; i < 9; i++){
+          if(!(combo.includes(i))){
+            document.getElementById(i).style.opacity = "0.5"
+          }else{
+            document.getElementById(i).style.color = "green"
+          }
+        }
+        return 
       }
 
       let XWins = combo.every(cell => cells[cell]==="X")
       if(XWins) {
         setWon("X Won!!!")
         document.querySelector("p").classList.add("won")
-
-        return
+        for (let i = 0; i < 9; i++){
+          if(!(combo.includes(i))){
+            document.getElementById(i).style.opacity = "0.5"
+          }else{
+            document.getElementById(i).style.color = "green"
+          }
+        }
+        return 
       }
+
     })
 
+    
   }
 
 
@@ -57,6 +73,10 @@ const handleReset = () => {
   setTimeout(() => {
     document.getElementById("app").classList.add("reset");
   }, 10)
+  document.querySelectorAll(".square").forEach(box => {
+    box.style.opacity = "1"
+    box.style.color = "black"
+  })
 
 }
 
