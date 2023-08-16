@@ -8,12 +8,16 @@ const handleClick = (e) => {
     const taken = (cell.value !== "" ? false : true);
 
     if(!taken){
-        
-        
-        
         const newArray =  cells.map((cell, index)=>{
             if(index === id && cell === ""){
-                    setTurn(turn === "O" ? "X" : "O")
+                    
+                    if(turn === "O"){
+                        document.getElementById(index).style.color = "blue"
+                        setTurn("X")
+                    }else{
+                        document.getElementById(index).style.color = "red"
+                        setTurn("O")
+                    }
                     return turn;
                 }else{
                     return cell
