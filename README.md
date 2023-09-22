@@ -37,10 +37,7 @@ This is a simple Tic-Tac-Toe game implemented using React. The game allows two p
 5. Open your web browser and navigate to `http://localhost:3000` to play the game.
 
 
-## UI:
 
-
-https://github.com/Srinivas-Thiru/Tic-Tac-Toe/assets/110653801/abf46879-ea53-4dd8-a135-f37f7b963b85
 
 
 
