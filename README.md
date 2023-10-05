@@ -2,6 +2,8 @@
 
 This is a simple Tic-Tac-Toe game implemented using React. The game allows two players to take turns and compete against each other. The player who succeeds in placing three of their marks (either 'X' or 'O') in a horizontal, vertical, or diagonal row wins the game.
 
+[Checkout the website!!!](https://tic-tac-toe-one-coral.vercel.app/)
+
 ## Features
 
 - Dynamic game board built with React components.
