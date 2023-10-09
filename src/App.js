@@ -34,6 +34,7 @@ const App = () => {
           if(!(combo.includes(i))){
             document.getElementById(i).style.opacity = "0.5"
           }else{
+            document.getElementById(i).style.opacity = "1"
             document.getElementById(i).style.color = "green"
           }
         }
@@ -48,6 +49,7 @@ const App = () => {
           if(!(combo.includes(i))){
             document.getElementById(i).style.opacity = "0.5"
           }else{
+            document.getElementById(i).style.opacity = "1"
             document.getElementById(i).style.color = "green"
           }
         }
